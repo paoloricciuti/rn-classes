@@ -1,0 +1,34 @@
+{
+  "name": "rn-classes",
+  "type": "module",
+  "version": "0.0.6",
+  "description": "Utility function to wrap around a StyleSheet.create in react-native and get a function to merge the objects. Differently from other packages it provides cascading and a good typing support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paoloricciuti/rn-classes.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "classes",
+    "clsx"
+  ],
+  "author": "Paolo Ricciuti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paoloricciuti/rn-classes/issues"
+  },
+  "homepage": "https://github.com/paoloricciuti/rn-classes#readme",
+  "dependencies": {
+    "clsx": "^1.2.1"
+  },
+  "devDependencies": {
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  }
+}
